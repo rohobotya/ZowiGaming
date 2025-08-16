@@ -34,7 +34,7 @@ document.getElementById('loginBtn').addEventListener('click', () => {
                 if (snapshot.exists()) {
                     const userData = snapshot.val();
                     if (userData.approved && userData.prepayment_status === "approved") {
-                        window.location.href = "https://rohobotya.github.io/www.zowipromotion.com/";
+                        window.location.href = "https://forms.gle/ZCHUHk1UPbJjnxAD8";
                     } else {
                         statusEl.textContent = "Account not approved or prepayment pending.";
                         statusEl.style.color = "red";
